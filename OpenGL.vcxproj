@@ -71,11 +71,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Leech\source\repos\OpenGL\libraries\include</IncludePath>
+    <IncludePath>C:\Users\Leech\source\repos\OpenGL\libraries\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Leech\source\repos\OpenGL\libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Leech\source\repos\OpenGL\libraries\include</IncludePath>
+    <IncludePath>C:\Users\Leech\source\repos\OpenGL\libraries\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Leech\source\repos\OpenGL\libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
